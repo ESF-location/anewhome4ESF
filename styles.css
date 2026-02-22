@@ -30,3 +30,44 @@
   border-color: var(--danger);
 }
 
+
+/* TABELLE - centraggio colonne */
+.table-wrapper {
+  margin-top: 1rem;
+  overflow-x: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.5);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--card-bg);
+}
+
+th, td {
+  padding: 0.7rem 0.75rem;
+  font-size: 0.9rem;
+  text-align: center;     /* ← Centra tutto */
+  border-bottom: 1px solid var(--border);
+}
+
+th {
+  background: #020617;
+  font-weight: 600;
+}
+
+/* Prima colonna (Party) a sinistra per leggibilità */
+th:first-child, td:first-child {
+  text-align: left;
+}
+
+/* Ultima colonna (Notes) a sinistra */
+th:last-child, td:last-child {
+  text-align: left;
+}
+
+tbody tr:nth-child(even) {
+  background: #020617;
+}
