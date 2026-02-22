@@ -54,7 +54,7 @@ th, td {
 }
 
 th {
-  background: #f1f5f9;
+  background: #1e293b;
   font-weight: 600;
 }
 
@@ -71,6 +71,7 @@ th:last-child, td:last-child {
 tbody tr:nth-child(even) {
   background: #334155;
 }
+
 
 
 
