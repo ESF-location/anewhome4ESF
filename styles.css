@@ -69,7 +69,8 @@ th:last-child, td:last-child {
 }
 
 tbody tr:nth-child(even) {
-  background: #f8fafc;
+  background: #334155;
 }
+
 
 
